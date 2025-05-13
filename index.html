@@ -10,30 +10,31 @@
         <div class="calculator">
             <div class="display" id="display">0</div>
             <div class="buttons">
-                <button class="button light-gray" id="clear">AC</button>
-                <button class="button light-gray" id="plus-minus">+/-</button>
-                <button class="button light-gray" id="percent">%</button>
-                <button class="button orange" id="divide">÷</button>
+                <button data-action="delete" class="button light-gray" id="clear">AC</button>
+                <button data-action="change_sign" class="button light-gray" id="plus-minus">+/-</button>
+                <button data-action="%" class="button light-gray" id="percent">%</button>
+                <button data-action="/" class="button orange" id="divide">÷</button>
 
-                <button class="button gray" id="seven">7</button>
-                <button class="button gray" id="eight">8</button>
-                <button class="button gray" id="nine">9</button>
-                <button class="button orange" id="multiply">×</button>
+                <button data-action="7" class="button gray" id="seven">7</button>
+                <button data-action="8" class="button gray" id="eight">8</button>
+                <button data-action="9" class="button gray" id="nine">9</button>
+                <button data-action="*" class="button orange" id="multiply">×</button>
 
-                <button class="button gray" id="four">4</button>
-                <button class="button gray" id="five">5</button>
-                <button class="button gray" id="six">6</button>
-                <button class="button orange" id="subtract">−</button>
-
-                <button class="button gray" id="one">1</button>
-                <button class="button gray" id="two">2</button>
-                <button class="button gray" id="three">3</button>
-                <button class="button orange" id="add">+</button>
-
-                <button class="button gray span-2" id="zero">0</button>
-                <button class="button gray" id="decimal">.</button>
-                <button class="button orange" id="equals">=</button>
+                <button data-action="4" class="button gray" id="four">4</button>
+                <button data-action="5" class="button gray" id="five">5</button>
+                <button data-action="6" class="button gray" id="six">6</button>
+                <button data-action="-" class="button orange" id="subtract">−</button>
+ 
+                <button data-action="1" class="button gray" id="one">1</button>
+                <button data-action="2" class="button gray" id="two">2</button>
+                <button data-action="3" class="button gray" id="three">3</button>
+                <button data-action="+" class="button orange" id="add">+</button>
+ 
+                <button data-action="0" class="button gray span-2" id="zero">0</button>
+                <button data-action="." class="button gray" id="decimal">.</button>
+                <button data-action="=" class="button orange" id="equals">=</button>
             </div>
         </div>
+        <script src="./index.js"></script>
     </body>
 </html>
